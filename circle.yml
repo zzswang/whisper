@@ -56,7 +56,7 @@ workflows:
               only: /^v.*/
       - deploy:
           requires:
-            - test
+            - build
           filters:
             tags:
               only: /^v.*/
