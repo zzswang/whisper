@@ -1,4 +1,4 @@
-import Whisper from "./parser";
+import Whisper from "../src";
 
 const ipHeader = new Whisper()
   .endianess("big")
